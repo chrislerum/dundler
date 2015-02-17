@@ -8,8 +8,7 @@ class OneViewController < UIViewController
 
   def viewDidLoad
     @button_in_one.on(:touch) do
-      puts 'CCCCCCCCCCCC'
+      puts 'THIS CRASHES'
     end
-
   end
 end

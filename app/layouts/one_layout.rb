@@ -9,6 +9,6 @@ class OneLayout < MK::Layout
   def button_in_one_style
     background_color "#0000ff".uicolor
     frame [[0, 0], ['50%', 50]]
-    title 'PUSH'
+    title 'PUSH ONE'
   end
 end
